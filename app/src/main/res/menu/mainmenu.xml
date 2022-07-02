@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/item1"
+         android:icon="@drawable/ic_baseline_food"
+        android:iconTint="@color/white"
+        android:title="Item1"
+         app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/green"
+        android:icon="@drawable/ic_baseline_flight_24"
+        android:iconTint="@color/black"
+        android:title="Green"
+        app:showAsAction="never"
+        >
+
+
+
+    </item>
+    <item android:id="@+id/blue"
+         android:title="Blue"
+        app:showAsAction="never"
+        >
+
+    </item>
+    <item android:id="@+id/yellow"
+        android:title="Yellow"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/pink"
+        android:title="pink"
+        app:showAsAction="never"
+        />
+    <item android:title="Hide toppings"
+        android:id="@+id/hidetoppings"/>
+    <item android:title="Show toppings"
+        android:id="@+id/showtoppings"/>
+
+
+
+
+
+
+</menu>
